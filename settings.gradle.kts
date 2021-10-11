@@ -16,3 +16,4 @@ rootProject.name = "Standard"
 include("std-lib")
 include("std-resources")
 include("std-multipart")
+include("std-power")

@@ -28,13 +28,7 @@
         "modmenu.discord": "https://discord.gg/fTZSX9Y7uz"
       },
       "badges": [ "library" ],
-      "parent": {
-        "id": "std",
-        "name": "Standard Library",
-        "description": "Standard Utility library made by Modded MC Studios",
-        "icon": "assets/std-lib/icon.png",
-        "badges": [ "library" ]
-      }
+      "parent": "std"
     }
   }
 }

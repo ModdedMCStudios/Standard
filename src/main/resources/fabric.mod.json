@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "std-resources",
-  "name": "Standard Library - Resources",
-  "description": "Resource module",
+  "id": "std",
+  "name": "Standard Library",
+  "description": "Standard Utility library made by Modded MC Studios",
   "version": "${version}",
   "environment": "*",
   "license": "LGPL-3.0",
-  "icon": "assets/std-resources/icon.png",
+  "icon": "assets/std/icon.png",
   "contact": {
     "homepage": "https://modded-mc.com",
     "discord": "https://discord.gg/fTZSX9Y7uz",
@@ -19,16 +19,14 @@
   ],
   "depends": {
     "fabricloader": ">=0.6.2",
-    "minecraft": ">=1.17.1",
-    "std-lib": "${version}"
+    "minecraft": ">=1.17.1"
   },
   "custom": {
     "modmenu": {
       "links": {
         "modmenu.discord": "https://discord.gg/fTZSX9Y7uz"
       },
-      "badges": [ "library" ],
-      "parent": "std"
+      "badges": [ "library" ]
     }
   }
 }

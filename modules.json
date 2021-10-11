@@ -1,0 +1,16 @@
+{
+  "modules": {
+    "std-lib": {
+      "dependencies": []
+    },
+    "std-resources": {
+      "dependencies": ["std-lib"]
+    },
+    "std-multipart": {
+      "dependencies": ["std-lib"]
+    },
+    "std-power": {
+      "dependencies": ["std-lib"]
+    }
+  }
+}
