@@ -1,15 +1,23 @@
 {
   "modules": {
     "std-lib": {
+      "name": "Core",
+      "description": "Core utility module for STD/Lib",
       "dependencies": []
     },
     "std-resources": {
+      "name": "Resources",
+      "description": "Resource unification module for STD/Lib",
       "dependencies": ["std-lib"]
     },
     "std-multipart": {
+      "name": "Multipart",
+      "description": "Simple Multipart API for STD/Lib",
       "dependencies": ["std-lib"]
     },
     "std-power": {
+      "name": "Power",
+      "description": "Simple Power API for STD/Lib",
       "dependencies": ["std-lib"]
     }
   }
